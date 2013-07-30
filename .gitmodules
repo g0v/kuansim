@@ -1,3 +1,9 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:g0v/kuansim-backend.git
+[submodule "frontend/web"]
+	path = frontend/web
+	url = git@github.com:g0v/kuansim-frontend.git
+[submodule "frontend/chrome-extension"]
+	path = frontend/chrome-extension
+	url = git@github.com:g0v/kuansim_chrome.git
