@@ -34,5 +34,27 @@
 		"template": "template0",
 		"encoding": "utf8"
 	    }]
+    },
+    "pgrest": {
+	"dev": true,
+	"git-repo": "https://github.com/g0v/kuansim-backend.git",
+	"git-reference": "develop",
+	"config": {
+	    "schema": "kuansim",
+	    "db": "tcp://kuansim:password@localhost/kuansim",
+	    "host": "http://localhost:3000",
+	    "contact": {
+		"name": "Chen Hsin-Yi",
+		"email": "test@null.com"
+	    },
+	    "enable_auth": true,
+	    "logout_redirect": "/",
+	    "auth_providers": {
+		"facebook": {
+		    "clientID": "223074367841889",
+		    "clientSecret": "e40b54d17e245b956efa85a0c4c34497"
+		}
+	    }
+	}
     }
 }

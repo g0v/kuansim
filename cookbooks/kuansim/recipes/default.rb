@@ -6,6 +6,12 @@
 # 
 # All rights reserved - Do Not Redistribute
 #
+require 'json'
+
 runit_service "kuansim" do
   default_logger true
+end
+
+File.open("/etc/pgrest-config.json","w") do |f|
+  f.write(node['pgrest']['config'].to_json)
 end
