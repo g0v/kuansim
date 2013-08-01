@@ -1,6 +1,6 @@
 site :opscode
 
-cookbook 'postgresql', github: 'phlipper/chef-postgresql'
+cookbook 'postgresql'
 cookbook 'git'
 cookbook 'runit'
 cookbook 'python'
