@@ -9,4 +9,4 @@
 	url = git@github.com:g0v/kuansim_chrome.git
 [submodule "cookbooks/pgrest"]
 	path = cookbooks/pgrest
-	url = git@github.com:kuansim/pgrest.git
+	url = https://github.com/kuansim-cookbooks/pgrest.git
