@@ -8,6 +8,10 @@ A society issues tracking system
 
 ## install vagrant
 
+http://downloads.vagrantup.com/
+
+Don't install from Ubuntu/Linux Mint Software Center.
+
 ## install vagrant berkshelf
 
 ```
