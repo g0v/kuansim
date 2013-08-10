@@ -36,6 +36,7 @@ $ git submodule update --recursive
 $ cd cookbooks/kuansim/
 $ vagrant up
 ```
+The current project directory is shared as /vagrant in vagrant.
 
 # run web frontend server.
 
