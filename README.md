@@ -27,7 +27,7 @@ $ git clone --recursive
 # update all source codes
 
 ```
-$ git update --recursive
+$ git submodule update --recursive
 ```
 
 # run backend server.
