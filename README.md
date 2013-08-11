@@ -23,6 +23,7 @@ $ vagrant plugin install vagrant-berkshelf
 ```
 $ git clone --recursive
 ```
+(Add the git url in the end with space.)
 
 # update all source codes
 
@@ -31,6 +32,8 @@ $ git submodule update --recursive
 ```
 
 # run backend server.
+
+Browse to the kuansim folder cloned from git.
 
 ```
 $ cd cookbooks/kuansim/
