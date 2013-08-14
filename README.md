@@ -58,6 +58,8 @@ configuration into ${HOME}/.gitconfig
     pushInsteadOf = https://github.com/g0v/kuansim-backend.git
 [url "git@github.com:g0v/kuansim_chrome.git"]
     pushInsteadOf = https://github.com/g0v/kuansim_chrome.git
+[url "git@github.com:g0v/kuansim-devops.git"]
+    pushInsteadOf = https://github.com/g0v/kuansim-devops.git
 ```
 
 # See also
