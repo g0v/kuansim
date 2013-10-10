@@ -1,10 +1,11 @@
 site :opscode
 
-cookbook 'postgresql'
+cookbook 'postgresql', github: 'opscode-cookbooks/postgresql', ref: '4b079e747bf8c1fcded2f6609569c825e3056669'
 cookbook 'git'
 cookbook 'runit'
 cookbook 'python'
-cookbook 'pgrest'
-cookbook 'apt', github: 'opscode-cookbooks/apt'
-cookbook 'nodejs', github: 'phlipper/chef-nodejs'
+cookbook 'cron'
+cookbook 'pgrest', github: 'clkao-cookbooks/pgrest'
+cookbook 'nodejs', github: 'mdxp/nodejs-cookbook'
+cookbook 'database', github: 'clkao-cookbooks/database'
 cookbook 'kuansim', path: '.'
