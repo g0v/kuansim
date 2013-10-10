@@ -76,10 +76,10 @@ execute "boot kuansim backend" do
   command "kuansim --db #{conn} --boot"
 end
 
-#runit_service "kuansim" do
-#  default_logger true
-#end
+runit_service "kuansim" do
+  default_logger true
+end
 
-#File.open("/etc/kuansim-config.json","w") do |f|
-#  f.write(node['kuansim']['config'].to_json)
-#end
+File.open("/etc/kuansim-config.json","w") do |f|
+  f.write(node['kuansim']['config'].to_json)
+end

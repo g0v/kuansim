@@ -61,5 +61,37 @@
     "password": {
       "postgres": "hackg0v"
     }
+  },
+  "kuansim": {
+    "config": {
+      "host": "0.0.0.0",
+      "port": "3000",
+      "prefix": "/collections",
+      "dbconn": "tcp://postgres@localhost",
+      "dbname": "kuansim",
+      "dbschema": "kuansim",
+      "auth": {
+        "enable": true,
+        "success_redirect": "/me",
+        "logout_redirect": "/",
+        "plugins": [
+          "facebook"
+        ],
+        "providers_settings": {
+          "facebook": {
+            "clientID": "223074367841889",
+            "clientSecret": "e40b54d17e245b956efa85a0c4c34497"
+          },
+          "twitter": {
+            "consumerKey": null,
+            "consumerSecret": null
+          },
+          "google": {
+            "consumerKey": null,
+            "consumerSecret": null
+          }
+        }
+      }
+    }
   }
 }
